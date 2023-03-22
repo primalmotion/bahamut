@@ -132,6 +132,7 @@ func buildVersionedRoutes(modelManagers map[int]elemental.ModelManager, processo
 	return versionedRoutes
 }
 
+// BuildVersionedRoutes is useless
 func BuildVersionedRoutes(modelManagers map[int]elemental.ModelManager, processorFinder processorFinderFunc) map[int][]RouteInfo {
 
 	addRoute := func(routes map[string]routeBuilder, identity elemental.Identity, url string, verb string, private bool) {
