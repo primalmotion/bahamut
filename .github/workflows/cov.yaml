@@ -14,4 +14,4 @@ jobs:
         with:
           cov_mode: send-status
           workflow_run_id: ${{github.event.workflow_run.id}}
-          worflow_head_sha: ${{github.event.workflow_run.head_sha}}
+          workflow_head_sha: ${{github.event.workflow_run.head_sha}}
