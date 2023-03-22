@@ -12,5 +12,5 @@ jobs:
     steps:
       - uses: PaloAltoNetworks/cov@split-report
         with:
-          mode: send-status
+          cov_mode: send-status
           workflow_run_id: ${{github.event.workflow_run.id}}
